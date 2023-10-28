@@ -2,16 +2,18 @@
   <div>
     <Navbar />
     <Hero />
+    <About />
   </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About.vue";
 
 export default {
   name: "App",
-  components: { Navbar, Hero },
+  components: { Navbar, Hero, About },
 };
 </script>
 
