@@ -3,6 +3,7 @@
     <Navbar />
     <Hero />
     <About />
+    <Testimonials />
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About.vue";
+import Testimonials from "./components/Testimonials/Testimonials.vue";
 
 export default {
   name: "App",
-  components: { Navbar, Hero, About },
+  components: { Navbar, Hero, About, Testimonials },
 };
 </script>
 
