@@ -35,15 +35,18 @@ export default {
     flipCard(isHovered) {
       this.isFlipped = isHovered;
     },
-  },
-  created() {
-    axios
+    init(){
+      axios
       .get("/test-api/testimonials.json/")
       .then((response) => {
         this.testimonials = response.data.testimonials;
         console.log(response.data);
       })
       .catch(() => alert("Error while fetching data"));
+    }
+  },
+  created() {
+    this.init();
   },
 };
 </script>
