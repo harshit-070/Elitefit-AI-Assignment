@@ -38,7 +38,7 @@ export default {
   },
   created() {
     axios
-      .get("https://elitefit4you.com/test-api/testimonials.json")
+      .get("/test-api/testimonials.json/")
       .then((response) => {
         this.testimonials = response.data.testimonials;
         console.log(response.data);

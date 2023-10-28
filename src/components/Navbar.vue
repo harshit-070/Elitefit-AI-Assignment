@@ -17,8 +17,8 @@
           <b-nav-item class="nav-item">
             <a class="nav-link" href="#">ACCESSORIES</a>
           </b-nav-item>
-          <b-nav-item class="nav-item">
-            <a class="nav-link" href="#about">ABOUT</a>
+          <b-nav-item class="nav-item nav-link" href="#about"
+            >ABOUT
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
