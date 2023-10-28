@@ -32,17 +32,19 @@ h1 {
   font-family: "Pridi", sans-serif;
   font-size: 40px !important;
   font-weight: 400;
+  letter-spacing: 0.2rem;
 }
 
 span {
   letter-spacing: 2.4px;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.2rem;
 }
 
 .icon {
   color: white;
-  margin: 5px;
+  margin: 0.6rem;
   font-size: 30px;
+  margin-bottom: 2.5rem;
 }
 </style>

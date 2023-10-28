@@ -5,7 +5,8 @@
       <div class="text-content">
         <div class="text">WHERE QUALITY MEETS CLASS.</div>
         <br />
-        <CircularText />
+
+        <CircularText class="ctext" />
         <span class="brand">PISTONS</span>
         <br />
         <button>SHOP THE FALL 2023 COLLECTION</button>
@@ -78,11 +79,12 @@ button {
   }
 
   .text {
-    font-size: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .text-overlay {
-    font-size: 10px;
+    font-size: 1rem;
     background-color: black;
   }
 
