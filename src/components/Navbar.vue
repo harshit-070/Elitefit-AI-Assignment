@@ -28,7 +28,10 @@
           <FAI icon="magnifying-glass" class="icon" />
         </b-button>
         <b-popover target="popover-target-1" triggers="hover" placement="left">
-          I am popover <b>component</b> content!
+          <div class="d-flex align-items-center">
+            <input />
+            <button class="search-button">Search</button>
+          </div>
         </b-popover>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       </div>
@@ -88,5 +91,27 @@ export default {
 
 .collapse {
   max-width: fit-content;
+}
+
+.search-button {
+  background-color: black;
+  border: 3px solid #ffecc1;
+  border-radius: 50px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+
+input {
+  border-radius: 50px;
+  height: 33px;
+  width: 180px;
+  border: 1px solid black;
 }
 </style>
