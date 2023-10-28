@@ -13,7 +13,27 @@ import {
   faMagnifyingGlass,
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
-library.add(faUserSecret, faMagnifyingGlass, faShoppingCart);
+
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+
+import {
+  faFacebookSquare,
+  faInstagramSquare,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(
+  faUserSecret,
+  faMagnifyingGlass,
+  faShoppingCart,
+  faFacebookSquare,
+  faYoutube,
+  faInstagramSquare,
+  faTwitter,
+  faEnvelope
+);
+
 Vue.component("FAI", FontAwesomeIcon);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
