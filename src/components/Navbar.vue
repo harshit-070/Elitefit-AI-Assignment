@@ -3,20 +3,12 @@
     <div class="d-flex align-items-center justify-content-between w-100 mx-3">
       <b-navbar-brand class="navbar-brand" href="#">PISTONS</b-navbar-brand>
 
-      <b-collapse id="nav-collapse collapse" is-nav>
+      <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="navbar-nav me-auto mb-2 mb-lg-0">
-          <b-nav-item class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">NEW</a>
-          </b-nav-item>
-          <b-nav-item class="nav-item">
-            <a class="nav-link" href="#">BRANKS</a>
-          </b-nav-item>
-          <b-nav-item class="nav-item">
-            <a class="nav-link" href="#">COLLECTIONS</a>
-          </b-nav-item>
-          <b-nav-item class="nav-item">
-            <a class="nav-link" href="#">ACCESSORIES</a>
-          </b-nav-item>
+          <b-nav-item class="nav-item nav-link"> NEW </b-nav-item>
+          <b-nav-item class="nav-item nav-link"> BRANKS </b-nav-item>
+          <b-nav-item class="nav-item nav-link"> COLLECTIONS </b-nav-item>
+          <b-nav-item class="nav-item nav-link"> ACCESSORIES </b-nav-item>
           <b-nav-item class="nav-item nav-link" href="#about"
             >ABOUT
           </b-nav-item>
