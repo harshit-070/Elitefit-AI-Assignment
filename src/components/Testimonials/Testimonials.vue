@@ -36,9 +36,9 @@ export default {
       this.isFlipped = isHovered;
     },
   },
-  mounted() {
+  created() {
     axios
-      .get("/test-api/testimonials.json/")
+      .get("https://elitefit4you.com/test-api/testimonials.json")
       .then((response) => {
         this.testimonials = response.data.testimonials;
         console.log(response.data);
