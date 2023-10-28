@@ -49,7 +49,7 @@ button {
   font-weight: 700;
 }
 
-text {
+span {
   font-size: 24px;
   font-weight: 400;
   line-height: none;
@@ -58,6 +58,10 @@ text {
 
 @media (max-width: 768px) {
   .text-overlay {
+    font-size: 10px;
+  }
+
+  span {
     font-size: 10px;
   }
 
