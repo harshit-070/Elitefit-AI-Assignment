@@ -19,7 +19,6 @@
 <script>
 import axios from "axios";
 import Card from "./Card.vue";
-Card;
 export default {
   name: "testimonials",
   components: {
