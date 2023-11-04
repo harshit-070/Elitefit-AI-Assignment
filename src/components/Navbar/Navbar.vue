@@ -1,5 +1,5 @@
 <template>
-  <span>
+  <span class="container">
     <b-navbar toggleable="lg" type="light">
       <div class="d-flex align-items-center justify-content-between w-100 mx-3">
         <b-navbar-brand class="navbar-brand" href="#">PISTONS</b-navbar-brand>
@@ -37,7 +37,11 @@ export default {
 
 <style scoped>
 .container {
-  margin: 5px 5px;
+  position: fixed;
+  top: 35px;
+  min-width: 100vw;
+  z-index: 300;
+  background-color: white;
 }
 
 .icon {

@@ -15,5 +15,9 @@ div {
   font-size: 1rem;
   font-weight: 700;
   padding: 11px;
+  height: 45px;
+  position: fixed;
+  z-index: 300;
+  top: 0;
 }
 </style>
