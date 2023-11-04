@@ -118,7 +118,7 @@ export default {
 .hero {
   max-width: 100%;
   min-width: 100%;
-  margin-top: 135px;
+  margin-top: 115px;
 }
 .hero-row-1 {
   z-index: 1;

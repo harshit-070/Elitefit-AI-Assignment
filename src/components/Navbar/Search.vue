@@ -32,7 +32,7 @@ export default {
     openSearch() {
       this.showSearch = true;
       if (window.innerWidth <= 768) {
-        gsap.from(this.$refs.popover, { y: -78, duration: 0.5 });
+        gsap.from(this.$refs.popover, { y: -110, duration: 0.5 });
       } else {
         gsap.from(this.$refs.popover, { x: 100, duration: 0.5 });
       }
@@ -90,7 +90,7 @@ export default {
 input {
   border-radius: 50px;
   height: 33px;
-  width: 220px;
+  width: 70%;
   border: 1px solid black;
 }
 
@@ -98,7 +98,7 @@ input {
   .search {
     padding: 10px;
     position: absolute;
-    top: 78px;
+    top: 100px;
     left: 0;
     width: 100vw;
     z-index: 500;
