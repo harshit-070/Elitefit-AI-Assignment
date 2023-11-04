@@ -41,7 +41,7 @@ export default {
   height: 300px;
   perspective: 1000px;
   border-radius: 50px;
-  margin: 20px;
+  margin: 10px auto;
 }
 
 .flip-card-inner {

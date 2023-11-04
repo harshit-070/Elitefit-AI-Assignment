@@ -22,4 +22,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#about {
+  margin-bottom: 6rem;
+}
+</style>

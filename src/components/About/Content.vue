@@ -29,10 +29,11 @@ export default {
 h1 {
   font-weight: 700;
   letter-spacing: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
 }
 
 div {
-  padding: 0px 5px;
   width: 30rem;
   max-width: 100%;
 }

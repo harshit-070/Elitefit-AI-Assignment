@@ -1,10 +1,11 @@
 <template>
   <div class="container">
+    <div class="text">TESTIMONIALS</div>
     <div class="row m-0 p-0">
       <div
         v-for="testimonial in testimonials"
         :key="testimonial.name"
-        class="col-lg-3 col-md-6 com-sm-12"
+        class="col-lg-3 col-md-12 com-sm-12"
       >
         <Card
           :message="testimonial.message"
@@ -78,4 +79,27 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.container {
+  text-align: center;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-family: Oxygen;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+}
+</style>

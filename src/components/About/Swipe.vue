@@ -1,7 +1,7 @@
 <template>
-  <div class="container m-0">
+  <div class="container">
     <div class="image-container">
-      <img src="../../assets/0.png" alt="Image" />
+      <img src="../../assets/0.png" alt="Image" class="img-responsive" />
     </div>
   </div>
 </template>
@@ -15,22 +15,19 @@ export default {
 <style scoped>
 .container {
   width: 100%;
+  height: 100%;
   padding: 2rem;
 }
 
 .image-container {
-  max-width: 80%;
-  height: auto;
+  height: 100%;
+  width: 100%;
   overflow-x: scroll;
+  position: relative;
+  aspect-ratio: 573/450;
 }
 
-@media (max-width: 768px) {
-  .image-container {
-    max-width: 100%;
-  }
-
-  img {
-    height: 18rem;
-  }
+img {
+  height: 100%;
 }
 </style>
