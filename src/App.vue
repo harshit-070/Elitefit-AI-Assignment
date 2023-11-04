@@ -3,7 +3,7 @@
     <Feedback />
     <Banner />
     <Navbar />
-    <!-- <Hero /> -->
+    <Hero />
     <About />
     <Testimonials />
     <Footer />
@@ -12,9 +12,9 @@
 
 <script>
 import Banner from "./components/Banner.vue";
-import Navbar from "./components/Navbar.vue";
+import Navbar from "./components/Navbar/Navbar.vue";
 import Footer from "./components/Footer.vue";
-// import Hero from "./components/Hero/Hero";
+import Hero from "./components/Hero/Hero";
 import About from "./components/About/About.vue";
 import Testimonials from "./components/Testimonials/Testimonials.vue";
 import Feedback from "./components/Feedback.vue";
@@ -24,7 +24,7 @@ export default {
   components: {
     Banner,
     Navbar,
-    // Hero,
+    Hero,
     About,
     Testimonials,
     Footer,

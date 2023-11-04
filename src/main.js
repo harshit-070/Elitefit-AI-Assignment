@@ -12,6 +12,7 @@ import {
   faUserSecret,
   faMagnifyingGlass,
   faShoppingCart,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -31,8 +32,17 @@ library.add(
   faYoutube,
   faInstagramSquare,
   faTwitter,
-  faEnvelope
+  faEnvelope,
+  faXmark
 );
+
+import gsap from "gsap";
+
+Vue.mixin({
+  created: function () {
+    this.gsap = gsap;
+  },
+});
 
 Vue.component("FAI", FontAwesomeIcon);
 Vue.use(BootstrapVue);

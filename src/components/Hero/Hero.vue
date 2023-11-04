@@ -1,5 +1,5 @@
 <template>
-  <div class="m-0 p-0">
+  <div class="hero m-0 p-0">
     <div class="row m-0 p-0">
       <div class="col-lg-6 col-md-12 order-lg-1">
         <div class="content">
@@ -59,8 +59,8 @@ export default {
 </script>
 
 <style>
-.container {
-  min-width: 100%;
+.hero {
+  max-width: 100%;
 }
 
 .row > * {
@@ -69,7 +69,7 @@ export default {
 }
 
 .content {
-  width: 100%;
+  max-width: 100%;
 }
 
 .image-container {
