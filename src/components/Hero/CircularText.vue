@@ -38,7 +38,6 @@ export default {
 
 <style>
 #canv {
-  width: 475px;
-  height: 150px;
+  max-width: 100vw;
 }
 </style>

@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row m-0 p-0">
       <div class="col-lg-6 col-md-12 order-lg-4">
         <div class="content"><Image_4 /></div>
       </div>
@@ -20,7 +20,7 @@
         <div class="content"><Image_3 /></div>
       </div>
     </div>
-    <div class="row">
+    <div class="row m-0 p-0">
       <div class="col-lg-6 col-md-12 order-lg-5">
         <div class="content"><Image_5 /></div>
       </div>
@@ -28,7 +28,7 @@
         <div class="content"><Image_6 /></div>
       </div>
     </div>
-    <div class="row">
+    <div class="row m-0 p-0">
       <div class="col-lg-12 col-md-12">
         <div class="content"><Image_7 /></div>
       </div>
@@ -79,6 +79,7 @@ export default {
 .image {
   min-width: 100%;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  min-height: 100%;
 }
 </style>

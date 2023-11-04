@@ -1,27 +1,28 @@
 <template>
-  <b-navbar toggleable="lg" type="light">
-    <div class="d-flex align-items-center justify-content-between w-100 mx-3">
-      <b-navbar-brand class="navbar-brand" href="#">PISTONS</b-navbar-brand>
+  <span>
+    <b-navbar toggleable="lg" type="light">
+      <div class="d-flex align-items-center justify-content-between w-100 mx-3">
+        <b-navbar-brand class="navbar-brand" href="#">PISTONS</b-navbar-brand>
 
-      <b-collapse is-nav>
-        <b-navbar-nav class="navbar-nav me-auto mb-2 mb-lg-0">
-          <b-nav-item class="nav-item nav-link"> NEW </b-nav-item>
-          <b-nav-item class="nav-item nav-link"> BRANDS </b-nav-item>
-          <b-nav-item class="nav-item nav-link"> COLLECTIONS </b-nav-item>
-          <b-nav-item class="nav-item nav-link"> ACCESSORIES </b-nav-item>
-          <b-nav-item class="nav-item nav-link" href="#about"
-            >ABOUT
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-      <div class="d-flex align-items-center">
-        <FAI icon="cart-shopping" class="icon" />
-        <Search />
-        <List />
+        <b-collapse is-nav>
+          <b-navbar-nav class="navbar-nav me-auto mb-2 mb-lg-0">
+            <b-nav-item class="nav-item nav-link"> NEW </b-nav-item>
+            <b-nav-item class="nav-item nav-link"> BRANDS </b-nav-item>
+            <b-nav-item class="nav-item nav-link"> COLLECTIONS </b-nav-item>
+            <b-nav-item class="nav-item nav-link"> ACCESSORIES </b-nav-item>
+            <b-nav-item class="nav-item nav-link" href="#about"
+              >ABOUT
+            </b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+        <div class="d-flex align-items-center">
+          <FAI icon="cart-shopping" class="icon" />
+          <Search />
+          <List />
+        </div>
       </div>
-    </div>
-    <List :is-navbar-open="isNavbarOpen" :close-navbar="openNavbar" />
-  </b-navbar>
+    </b-navbar>
+  </span>
 </template>
 
 <script>
@@ -58,5 +59,17 @@ export default {
 
 .nav-link {
   color: black !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.collapse {
+  max-width: fit-content;
 }
 </style>

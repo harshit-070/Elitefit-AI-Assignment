@@ -5,7 +5,6 @@
       <div class="text-content">
         <div class="text">WHERE QUALITY MEETS CLASS.</div>
         <br />
-
         <CircularText class="ctext" />
         <span class="brand">PISTONS</span>
         <br />
@@ -86,6 +85,11 @@ button {
   .text-overlay {
     font-size: 1rem;
     background-color: black;
+    min-width: 100vw;
+    max-width: 100vw;
+    top: 125px;
+    left: 0;
+    transform: none;
   }
 
   .brand {
